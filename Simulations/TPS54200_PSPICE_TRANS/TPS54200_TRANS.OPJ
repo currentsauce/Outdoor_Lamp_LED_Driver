@@ -1,0 +1,50 @@
+(ExpressProject "TPS54200_TRANS"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\tps54200ddc_trans.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\TPS54200_trans.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (RootChangedForceReNetlist "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\tps54200_trans-pspicefiles\analog_dimming\trans.sim"
+        (DisplayName "Analog_Dimming-trans")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\tps54200_trans-pspicefiles\pwm_dimming\trans.sim"
+        (DisplayName "PWM_Dimming-trans")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\tps54200_trans-pspicefiles\analog_dimming\trans.sim"))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\TPS54200_trans.lib"
+        (Type "PSpiceLibrary")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (GlobalState
+    (FileView)
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -23 0 232 0 279"))
+      (Tab 0)))
+  (MPSSessionName "x0241588")
+  (PartMRUSelector
+    (TPS54200DDC_TRANS
+      (FullPartName "TPS54200DDC_TRANS.Normal")
+      (LibraryName
+         "C:\ELABTRANS_WS\ELABTRANS_DS\PART_NUMBERS\TPS54200\ACTIVE_WORK_SANKALP\EXPERIMENTS\RELEASE_PROJECT_24OCT2016\TPS54200DDC_TRANS.OLB")
+      (DeviceIndex "0"))))
