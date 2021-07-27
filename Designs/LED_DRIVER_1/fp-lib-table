@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name MyModels)(type KiCad)(uri C:/Users/ukjkin/Documents/GitHub/Outdoor_Lamp_LED_Driver/Designs/Models/TPS54200)(options "")(descr ""))
+)
